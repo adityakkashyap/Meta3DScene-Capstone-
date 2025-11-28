@@ -1,0 +1,27 @@
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.1.0
+numpy>=1.24
+Pillow>=9.0
+python-dotenv>=1.0
+psycopg2-binary>=2.9
+ipywidgets>=8.0
+requests>=2.31
+autogen>=0.1
+opencv-python-headless>=4.8
+tqdm>=4.65
+detect-secrets>=1.3
+```// filepath: c:\Users\kaua1\Downloads\Github_Push\requirements.txt
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+torch>=2.1.0
+numpy>=1.24
+Pillow>=9.0
+python-dotenv>=1.0
+psycopg2-binary>=2.9
+ipywidgets>=8.0
+requests>=2.31
+autogen>=0.1
+opencv-python-headless>=4.8
+tqdm>=4.65
+detect-secrets>=1.3
