@@ -1,4 +1,4 @@
-# Meta3DScene — Text → Editable 3D Scene
+# Meta3DScene : Text → Editable 3D Scene
 
 A simple, user‑facing tool that turns a short natural‑language prompt into an editable Blender scene and preview images.
 
@@ -30,8 +30,8 @@ Quick start (Windows PowerShell)
    - Notebook UI: open `dashboard.ipynb` in JupyterLab and run cells
 
 Example prompt
-- Input: "a cozy cabin surrounded by tall pine trees at sunrise"
-- Result: directory `a_cozy_cabin_surrounded_by_tall_pine_trees_at_sunrise/` with `scene/generate_scene.py`, renders, and assets
+- Input: "a cabin surrounded by tall pine trees"
+- Result: directory `a_cabin_surrounded_by_tall_pine_trees/` with `scene/generate_scene.py`, renders, and assets
 
 Notes for users
 - The generated Blender script is editable — open it in Blender to refine layout, materials, or lighting.
@@ -42,7 +42,3 @@ Troubleshooting
 - Blender not found: confirm `BLENDER_EXECUTABLE_PATH` in `.env`.
 - Long runs: Blender operations and model downloads can take time; monitor console output.
 - If an asset fails to download or measure, try a different prompt or check internet/API key.
-
-License & support
-- Add a LICENSE file before publishing.
-- For usage questions, open an issue or contact the maintainer.
